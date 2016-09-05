@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F3B1CCA-20C3-4A45-9701-4C2267A03E3D}</ProjectGuid>
+    <RootNamespace>Test_SDL_DirectX90c</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\Inlcudes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\Libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3dxof.lib;dxguid.lib;d3dx9.lib;d3d9.lib;winmm.lib;dxerr.lib;dxguid.lib;dxerr.lib;odbc32.lib;odbccp32.lib;SDL.lib;SDLmain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>..\Inlcudes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\Libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>d3dxof.lib;dxguid.lib;d3dx9.lib;d3d9.lib;winmm.lib;dxerr.lib;dxguid.lib;dxerr.lib;odbc32.lib;odbccp32.lib;SDL.lib;SDLmain.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cl_CameraFPS.cpp" />
+    <ClCompile Include="cl_CustomCube.cpp" />
+    <ClCompile Include="cl_CustomForme.cpp" />
+    <ClCompile Include="cl_CustomObject.cpp" />
+    <ClCompile Include="cl_Direct3D_Parameters.cpp" />
+    <ClCompile Include="cl_Door.cpp" />
+    <ClCompile Include="cl_FormeCube.cpp" />
+    <ClCompile Include="cl_FormeDoor.cpp" />
+    <ClCompile Include="cl_FormePlafondBase.cpp" />
+    <ClCompile Include="cl_FormePyramide.cpp" />
+    <ClCompile Include="cl_FormeSolPierre.cpp" />
+    <ClCompile Include="cl_FormeWall.cpp" />
+    <ClCompile Include="cl_Game.cpp" />
+    <ClCompile Include="cl_CustomPyramide.cpp" />
+    <ClCompile Include="cl_Joueur.cpp" />
+    <ClCompile Include="cl_PlafondBase.cpp" />
+    <ClCompile Include="cl_SDL_Parameters.cpp" />
+    <ClCompile Include="cl_SolPierre.cpp" />
+    <ClCompile Include="cl_Wall.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cl_CameraFPS.hpp" />
+    <ClInclude Include="cl_CustomCube.hpp" />
+    <ClInclude Include="cl_CustomForme.hpp" />
+    <ClInclude Include="cl_CustomObject.hpp" />
+    <ClInclude Include="cl_Direct3D_Parameters.hpp" />
+    <ClInclude Include="cl_Door.hpp" />
+    <ClInclude Include="cl_FormeCube.hpp" />
+    <ClInclude Include="cl_FormeDoor.hpp" />
+    <ClInclude Include="cl_FormePlafondBase.hpp" />
+    <ClInclude Include="cl_FormePyramide.hpp" />
+    <ClInclude Include="cl_FormeSolPierre.hpp" />
+    <ClInclude Include="cl_FormeWall.hpp" />
+    <ClInclude Include="cl_Game.hpp" />
+    <ClInclude Include="cl_CustomPyramide.hpp" />
+    <ClInclude Include="cl_Joueur.hpp" />
+    <ClInclude Include="cl_PlafondBase.hpp" />
+    <ClInclude Include="cl_SDL_Parameters.hpp" />
+    <ClInclude Include="cl_SolPierre.hpp" />
+    <ClInclude Include="cl_Wall.hpp" />
+    <ClInclude Include="header_classes.hpp" />
+    <ClInclude Include="header_ressources.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

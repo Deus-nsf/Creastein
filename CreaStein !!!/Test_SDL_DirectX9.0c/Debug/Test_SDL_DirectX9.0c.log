@@ -1,0 +1,88 @@
+﻿La génération a démarré 19/03/2013 10:30:36.
+     1>Projet "C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Test_SDL_DirectX9.0c\Test_SDL_DirectX9.0c.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "Debug\Test_SDL_DirectX9.0c.lastbuildstate".
+       InitializeBuildStatus:
+         Création de "Debug\Test_SDL_DirectX9.0c.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Inlcudes /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cl_CameraFPS.cpp cl_CustomCube.cpp cl_CustomForme.cpp cl_CustomObject.cpp cl_Direct3D_Parameters.cpp cl_Door.cpp cl_FormeCube.cpp cl_FormeDoor.cpp cl_FormePlafondBase.cpp cl_FormePyramide.cpp cl_FormeSolPierre.cpp cl_FormeWall.cpp cl_Game.cpp cl_CustomPyramide.cpp cl_Joueur.cpp cl_PlafondBase.cpp cl_SDL_Parameters.cpp cl_SolPierre.cpp cl_Wall.cpp main.cpp
+         main.cpp
+         cl_Wall.cpp
+         cl_SolPierre.cpp
+         cl_SDL_Parameters.cpp
+         cl_PlafondBase.cpp
+         cl_Joueur.cpp
+         cl_CustomPyramide.cpp
+         cl_Game.cpp
+         cl_FormeWall.cpp
+         cl_FormeSolPierre.cpp
+         cl_FormePyramide.cpp
+         cl_FormePlafondBase.cpp
+         cl_FormeDoor.cpp
+         cl_FormeCube.cpp
+         cl_Door.cpp
+         cl_Direct3D_Parameters.cpp
+         cl_CustomObject.cpp
+         cl_CustomForme.cpp
+         cl_CustomCube.cpp
+         cl_CameraFPS.cpp
+         Génération de code en cours...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Test_SDL_DirectX9.0c.exe.embed.manifest.res" Debug\Test_SDL_DirectX9.0c_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Libs d3dxof.lib dxguid.lib d3dx9.lib d3d9.lib winmm.lib dxerr.lib dxguid.lib dxerr.lib odbc32.lib odbccp32.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Test_SDL_DirectX9.0c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.lib" /MACHINE:X86 Debug\Test_SDL_DirectX9.0c.exe.embed.manifest.res
+         Debug\cl_CameraFPS.obj
+         Debug\cl_CustomCube.obj
+         Debug\cl_CustomForme.obj
+         Debug\cl_CustomObject.obj
+         Debug\cl_Direct3D_Parameters.obj
+         Debug\cl_Door.obj
+         Debug\cl_FormeCube.obj
+         Debug\cl_FormeDoor.obj
+         Debug\cl_FormePlafondBase.obj
+         Debug\cl_FormePyramide.obj
+         Debug\cl_FormeSolPierre.obj
+         Debug\cl_FormeWall.obj
+         Debug\cl_Game.obj
+         Debug\cl_CustomPyramide.obj
+         Debug\cl_Joueur.obj
+         Debug\cl_PlafondBase.obj
+         Debug\cl_SDL_Parameters.obj
+         Debug\cl_SolPierre.obj
+         Debug\cl_Wall.obj
+         Debug\main.obj
+       Manifest:
+         Suppression du fichier "Debug\Test_SDL_DirectX9.0c.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Test_SDL_DirectX9.0c.exe.embed.manifest" /manifest Debug\Test_SDL_DirectX9.0c.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Test_SDL_DirectX9.0c.exe.embed.manifest.res" Debug\Test_SDL_DirectX9.0c_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Libs d3dxof.lib dxguid.lib d3dx9.lib d3d9.lib winmm.lib dxerr.lib dxguid.lib dxerr.lib odbc32.lib odbccp32.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Test_SDL_DirectX9.0c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.lib" /MACHINE:X86 Debug\Test_SDL_DirectX9.0c.exe.embed.manifest.res
+         Debug\cl_CameraFPS.obj
+         Debug\cl_CustomCube.obj
+         Debug\cl_CustomForme.obj
+         Debug\cl_CustomObject.obj
+         Debug\cl_Direct3D_Parameters.obj
+         Debug\cl_Door.obj
+         Debug\cl_FormeCube.obj
+         Debug\cl_FormeDoor.obj
+         Debug\cl_FormePlafondBase.obj
+         Debug\cl_FormePyramide.obj
+         Debug\cl_FormeSolPierre.obj
+         Debug\cl_FormeWall.obj
+         Debug\cl_Game.obj
+         Debug\cl_CustomPyramide.obj
+         Debug\cl_Joueur.obj
+         Debug\cl_PlafondBase.obj
+         Debug\cl_SDL_Parameters.obj
+         Debug\cl_SolPierre.obj
+         Debug\cl_Wall.obj
+         Debug\main.obj
+         Test_SDL_DirectX9.0c.vcxproj -> C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Debug\Test_SDL_DirectX9.0c.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\Test_SDL_DirectX9.0c.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\Test_SDL_DirectX9.0c.lastbuildstate".
+     1>Génération du projet "C:\Users\malfiguigui\Desktop\CreaStein !!! SAFE BACKUP\Test_SDL_DirectX9.0c\Test_SDL_DirectX9.0c.vcxproj" terminée (rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:16.49

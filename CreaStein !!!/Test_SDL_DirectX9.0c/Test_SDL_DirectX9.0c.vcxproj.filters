@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Classes_Direct3D">
+      <UniqueIdentifier>{b35ca4e8-2690-411a-82dd-524c0626d7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Classes_Direct3D">
+      <UniqueIdentifier>{b93e1408-090b-49e1-a927-7be805f11e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Classes_SDL">
+      <UniqueIdentifier>{a0097bf0-0992-4529-9aa7-38773be7a073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Classes_SDL">
+      <UniqueIdentifier>{36387dff-3590-4c73-badb-a73cfe7d6085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Headers_Objets">
+      <UniqueIdentifier>{379f7627-7f14-408b-88a2-bf17072f6e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Objets">
+      <UniqueIdentifier>{6f455108-5339-424e-a891-237677f93336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Header_Formes">
+      <UniqueIdentifier>{c074a543-0568-45c8-9065-dd84d6d48dd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Sources_Formes">
+      <UniqueIdentifier>{81946dfa-f2b6-4ee2-bb3d-6f83428d6f89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_SDL_Parameters.cpp">
+      <Filter>Fichiers sources\Sources_Classes_SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_CustomPyramide.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_CustomObject.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_CustomCube.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Wall.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Door.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_SolPierre.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_PlafondBase.cpp">
+      <Filter>Fichiers sources\Sources_Objets</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_CustomForme.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormeCube.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormePyramide.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormeDoor.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormePlafondBase.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Direct3D_Parameters.cpp">
+      <Filter>Fichiers sources\Sources_Classes_Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormeSolPierre.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_FormeWall.cpp">
+      <Filter>Fichiers sources\Sources_Formes</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_CameraFPS.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Joueur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header_ressources.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="header_classes.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Direct3D_Parameters.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes_Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_SDL_Parameters.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Classes_SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Game.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_CustomPyramide.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_CustomObject.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_CustomCube.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Wall.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Door.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_SolPierre.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_PlafondBase.hpp">
+      <Filter>Fichiers d%27en-tête\Headers_Objets</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_CustomForme.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormeCube.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormePyramide.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormeDoor.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormePlafondBase.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormeSolPierre.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_FormeWall.hpp">
+      <Filter>Fichiers d%27en-tête\Header_Formes</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_CameraFPS.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Joueur.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

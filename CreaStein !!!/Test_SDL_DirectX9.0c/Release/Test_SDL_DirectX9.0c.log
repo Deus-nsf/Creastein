@@ -1,0 +1,62 @@
+﻿La génération a démarré 19/03/2013 11:33:46.
+     1>Projet "C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Test_SDL_DirectX9.0c\Test_SDL_DirectX9.0c.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "Release\Test_SDL_DirectX9.0c.lastbuildstate".
+       InitializeBuildStatus:
+         Création de "Release\Test_SDL_DirectX9.0c.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Inlcudes /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cl_CameraFPS.cpp cl_CustomCube.cpp cl_CustomForme.cpp cl_CustomObject.cpp cl_Direct3D_Parameters.cpp cl_Door.cpp cl_FormeCube.cpp cl_FormeDoor.cpp cl_FormePlafondBase.cpp cl_FormePyramide.cpp cl_FormeSolPierre.cpp cl_FormeWall.cpp cl_Game.cpp cl_CustomPyramide.cpp cl_Joueur.cpp cl_PlafondBase.cpp cl_SDL_Parameters.cpp cl_SolPierre.cpp cl_Wall.cpp main.cpp
+         cl_CameraFPS.cpp
+         cl_CustomCube.cpp
+         cl_CustomForme.cpp
+         cl_CustomObject.cpp
+         cl_Direct3D_Parameters.cpp
+         cl_Door.cpp
+         cl_FormeCube.cpp
+         cl_FormeDoor.cpp
+         cl_FormePlafondBase.cpp
+         cl_FormePyramide.cpp
+         cl_FormeSolPierre.cpp
+         cl_FormeWall.cpp
+         cl_Game.cpp
+         cl_CustomPyramide.cpp
+         cl_Joueur.cpp
+         cl_PlafondBase.cpp
+         cl_SDL_Parameters.cpp
+         cl_SolPierre.cpp
+         cl_Wall.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Release\Test_SDL_DirectX9.0c.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Libs d3dxof.lib dxguid.lib d3dx9.lib d3d9.lib winmm.lib dxerr.lib dxguid.lib dxerr.lib odbc32.lib odbccp32.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Test_SDL_DirectX9.0c.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Release\Test_SDL_DirectX9.0c.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Release\Test_SDL_DirectX9.0c.lib" /MACHINE:X86 Release\cl_CameraFPS.obj
+         Release\cl_CustomCube.obj
+         Release\cl_CustomForme.obj
+         Release\cl_CustomObject.obj
+         Release\cl_Direct3D_Parameters.obj
+         Release\cl_Door.obj
+         Release\cl_FormeCube.obj
+         Release\cl_FormeDoor.obj
+         Release\cl_FormePlafondBase.obj
+         Release\cl_FormePyramide.obj
+         Release\cl_FormeSolPierre.obj
+         Release\cl_FormeWall.obj
+         Release\cl_Game.obj
+         Release\cl_CustomPyramide.obj
+         Release\cl_Joueur.obj
+         Release\cl_PlafondBase.obj
+         Release\cl_SDL_Parameters.obj
+         Release\cl_SolPierre.obj
+         Release\cl_Wall.obj
+         Release\main.obj
+         Génération de code en cours
+         Fin de la génération du code
+         Test_SDL_DirectX9.0c.vcxproj -> C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Release\Test_SDL_DirectX9.0c.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Release\Test_SDL_DirectX9.0c.exe;#1" /manifest Release\Test_SDL_DirectX9.0c.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "Release\Test_SDL_DirectX9.0c.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Release\Test_SDL_DirectX9.0c.lastbuildstate".
+     1>Génération du projet "C:\Users\malfiguigui\Desktop\CreaStein !!! Col\Test_SDL_DirectX9.0c\Test_SDL_DirectX9.0c.vcxproj" terminée (rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:12.90
